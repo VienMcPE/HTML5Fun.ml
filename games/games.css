@@ -1,0 +1,51 @@
+
+body{
+    margin:0;
+    padding:0;
+}
+.games{
+    width:100%;
+    height:250px;
+}
+.iframe-class{
+    width: 100%;
+    height: 140%;
+    border: 1px solid lightgray;
+    overflow: auto;
+}
+.invi {
+    display: none;
+}
+.fullscreen{
+    position: fixed;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    border:0;
+    z-index: 99999;
+    background-color:black;
+    width:100%;
+    height:100%;
+}
+.fullbutton {
+    position:fixed;
+    z-index:1000000;
+    display:block ;
+    border:0;
+    top:0;
+}
+.X-Button{
+    background-color:#141414;
+    color:white;
+    border-radius:50%;
+
+}
+.FullButton{
+    position:relative;
+    display: inline;
+    font-size:20px;
+    float:right;
+    background-color:transparent;
+    border:none;
+}
